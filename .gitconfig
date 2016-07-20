@@ -1,0 +1,3 @@
+[remote "origin"]
+    url = https://github.com/jonleung/hexo-blog.git
+    fetch = +refs/heads/*:refs/remotes/github/*
