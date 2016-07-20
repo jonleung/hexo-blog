@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Jonathan&#39;s SFPC Blog</title>
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/hexo-blog/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-20T23:44:54.000Z</updated>
+  <updated>2016-07-20T23:38:56.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,10 +16,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/hello-world/"/>
+    <id>http://yoursite.com/hello-world/</id>
+    <published>2016-07-20T23:52:48.223Z</published>
+    <updated>2016-07-20T23:38:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is going to be the temporary place that I’m going to publish my projects<br>make at <a href="http://sfpc.io" target="_blank" rel="external">SFPC</a> until I overhaul this unto my own websites : )</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is going to be the temporary place that I’m going to publish my projects&lt;br&gt;make at &lt;a href=&quot;http://sfpc.io&quot; target=&quot;_blank&quot; rel=&quot;ex
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Face Mash</title>
     <link href="http://yoursite.com/Face-Mash/"/>
     <id>http://yoursite.com/Face-Mash/</id>
-    <published>2016-07-20T23:45:08.276Z</published>
+    <published>2016-07-20T23:52:48.211Z</published>
     <updated>2016-07-20T23:44:54.000Z</updated>
     
     <content type="html"><![CDATA[<p>If you combined photos of all your friends’ faces, what would it tell you?</p>
@@ -88,25 +107,6 @@
       &lt;p&gt;If you combined photos of all your friends’ faces, what would it tell you?&lt;/p&gt;
 &lt;p&gt;This is what emerged for my friends:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/hello-world/"/>
-    <id>http://yoursite.com/hello-world/</id>
-    <published>2016-07-20T23:40:35.515Z</published>
-    <updated>2016-07-20T23:38:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>This is going to be the temporary place that I’m going to publish my projects<br>make at <a href="http://sfpc.io" target="_blank" rel="external">SFPC</a> until I overhaul this unto my own websites : )</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;This is going to be the temporary place that I’m going to publish my projects&lt;br&gt;make at &lt;a href=&quot;http://sfpc.io&quot; target=&quot;_blank&quot; rel=&quot;ex
     
     </summary>
     
