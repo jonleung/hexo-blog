@@ -19,7 +19,7 @@
     <title>Hello World</title>
     <link href="http://yoursite.com/hello-world/"/>
     <id>http://yoursite.com/hello-world/</id>
-    <published>2016-07-21T00:31:07.052Z</published>
+    <published>2016-07-21T00:40:22.202Z</published>
     <updated>2016-07-20T23:38:56.000Z</updated>
     
     <content type="html"><![CDATA[<p>This is going to be the temporary place that I'm going to publish my projects
@@ -40,11 +40,11 @@ make at &lt;a href=&quot;http://sfpc.io&quot; target=&quot;_blank&quot; rel=&quo
     <title>Face Mash</title>
     <link href="http://yoursite.com/Face-Mash/"/>
     <id>http://yoursite.com/Face-Mash/</id>
-    <published>2016-07-21T00:31:07.049Z</published>
-    <updated>2016-07-21T00:30:33.000Z</updated>
+    <published>2016-07-21T00:40:22.190Z</published>
+    <updated>2016-07-21T00:39:30.000Z</updated>
     
     <content type="html"><![CDATA[<p>If you combined photos of all your friends' faces, what would it tell you? That's the question I was curious about.</p>
-<p>What could you discern about the race of your friends, how about about gender?</p>
+<p>What could you discern about the commonality of gender of your friends, how about race?</p>
 <p>This is what emerged for my friends:</p>
 <p><img src="combined.png" alt=""></p>
 <h2>Constructing the Image</h2>
@@ -63,6 +63,7 @@ make at &lt;a href=&quot;http://sfpc.io&quot; target=&quot;_blank&quot; rel=&quo
 <img src="19.jpg" alt="">
 <img src="20.jpg" alt="">
 <img src="28.jpg" alt=""></p>
+<p>In terms of determining race or gender, the final image is a bit too blurred out to really make any kind of conclusions about race, gender, or anything else from it.</p>
 <h2>Context</h2>
 <p>This week at <a href="http://sfpc.io" target="_blank" rel="external">SFPC</a>, <a href="http://thesystemis.com/" target="_blank" rel="external">Zach</a> prompted us to create an image that either melded multiple faces together. This assignment was inspired by the work <a href="http://nancyburson.com/" target="_blank" rel="external">Nancy Berson</a> and <a href="http://salavon.com/" target="_blank" rel="external">Jason Salavon</a>.</p>
 <h2>Process</h2>
