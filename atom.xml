@@ -5,7 +5,7 @@
   <link href="/hexo-blog/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-20T23:38:56.000Z</updated>
+  <updated>2016-07-21T00:13:02.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,39 +16,21 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/hello-world/"/>
-    <id>http://yoursite.com/hello-world/</id>
-    <published>2016-07-21T00:09:16.555Z</published>
-    <updated>2016-07-20T23:38:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>This is going to be the temporary place that I’m going to publish my projects<br>make at <a href="http://sfpc.io" target="_blank" rel="external">SFPC</a> until I overhaul this unto my own websites : )</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;This is going to be the temporary place that I’m going to publish my projects&lt;br&gt;make at &lt;a href=&quot;http://sfpc.io&quot; target=&quot;_blank&quot; rel=&quot;ex
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Face Mash</title>
     <link href="http://yoursite.com/Face-Mash/"/>
     <id>http://yoursite.com/Face-Mash/</id>
-    <published>2016-07-21T00:09:16.545Z</published>
-    <updated>2016-07-21T00:03:08.000Z</updated>
+    <published>2016-07-21T00:13:42.823Z</published>
+    <updated>2016-07-21T00:13:02.000Z</updated>
     
-    <content type="html"><![CDATA[<p>If you combined photos of all your friends’ faces, what would it tell you?</p>
+    <content type="html"><![CDATA[<p>If you combined photos of all your friends’ faces, what would it tell you?<br>That’s the question I was curious about.</p>
+<p>What could you discern about the race of your friends, how about about gender?</p>
 <p>This is what emerged for my friends:</p>
 <p><img src="combined.png" alt=""></p>
-<h2 id="Constructing-the-Image"><a href="#Constructing-the-Image" class="headerlink" title="Constructing the Image"></a>Constructing the Image</h2><h3 id="Adding-One-at-a-Time"><a href="#Adding-One-at-a-Time" class="headerlink" title="Adding One at a Time"></a>Adding One at a Time</h3><p><a href="face-mash-screens-side-by-side.mov"><img src="face-mash-screens-side-by-side.mov.gif" alt=""></a></p>
-<p>The above gif illustrates one image at a time: I wasn’t even close to reaching<br>the end.</p>
+<h2 id="Constructing-the-Image"><a href="#Constructing-the-Image" class="headerlink" title="Constructing the Image"></a>Constructing the Image</h2><h3 id="Adding-One-Image-at-a-Time"><a href="#Adding-One-Image-at-a-Time" class="headerlink" title="Adding One Image at a Time"></a>Adding One Image at a Time</h3><p><a href="face-mash-screens-side-by-side.mov"><img src="face-mash-screens-side-by-side.mov.gif" alt=""></a></p>
+<p>The above gif illustrates what it looks like when you add  one image at a time.</p>
 <h3 id="Slowly-Adding-More-and-More-at-a-Time"><a href="#Slowly-Adding-More-and-More-at-a-Time" class="headerlink" title="Slowly Adding More and More at a Time"></a>Slowly Adding More and More at a Time</h3><p><a href="face-mash-screens.mov"><img src="face-mash-screens.mov.gif" alt=""></a></p>
-<p>Each additional image has less and less of an impact on the final result. Here<br>is a sped up version in which the later images are being many at a time added:</p>
-<h2 id="Reflection"><a href="#Reflection" class="headerlink" title="Reflection"></a>Reflection</h2><p>I was a bit surprised that you could still make out what appears like hair and<br>part of the face:</p>
+<p>The above gif starts out by adding one image at a time and slowly adds many more<br>images at once.</p>
+<h2 id="Reflection"><a href="#Reflection" class="headerlink" title="Reflection"></a>Reflection</h2><p>I was a bit surprised that you could still make out what appears hair and part<br>of the face:</p>
 <p><img src="hair-face.png" alt=""></p>
 <p>because many photos are not photos of people’s faces:</p>
 <p><img src="1.jpg" alt=""><br><img src="7.jpg" alt=""><br><img src="19.jpg" alt=""><br><img src="20.jpg" alt=""><br><img src="28.jpg" alt=""></p>
@@ -104,9 +86,27 @@
     
     <summary type="html">
     
-      &lt;p&gt;If you combined photos of all your friends’ faces, what would it tell you?&lt;/p&gt;
-&lt;p&gt;This is what emerged for my friends:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;c
+      &lt;p&gt;If you combined photos of all your friends’ faces, what would it tell you?&lt;br&gt;That’s the question I was curious about.&lt;/p&gt;
+&lt;p&gt;What could 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/hello-world/"/>
+    <id>http://yoursite.com/hello-world/</id>
+    <published>2016-07-20T23:40:35.515Z</published>
+    <updated>2016-07-20T23:38:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is going to be the temporary place that I’m going to publish my projects<br>make at <a href="http://sfpc.io" target="_blank" rel="external">SFPC</a> until I overhaul this unto my own websites : )</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is going to be the temporary place that I’m going to publish my projects&lt;br&gt;make at &lt;a href=&quot;http://sfpc.io&quot; target=&quot;_blank&quot; rel=&quot;ex
     
     </summary>
     
