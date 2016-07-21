@@ -21,54 +21,48 @@
 <h2>Context</h2>
 <p>This week at <a href="http://sfpc.io" target="_blank" rel="external">SFPC</a>, <a href="http://thesystemis.com/" target="_blank" rel="external">Zach</a> prompted us to create an image that either melded multiple faces together. This assignment was inspired by the work <a href="http://nancyburson.com/" target="_blank" rel="external">Nancy Berson</a> and <a href="http://salavon.com/" target="_blank" rel="external">Jason Salavon</a>.</p>
 <h2>Process</h2>
-<p>Reorganized for understandability...</p>
+<p><em>Not exactly the ordered I actually followed. I reorganized it for understandability...</em></p>
 <h3>1) Facebook API Fail</h3>
-<p>Initially tried to use the Facebook api to obtain all of my friends and photos. Turns out that you can [no longer obtain all of a user's friends on facebook]
-(https://developers.facebook.com/docs/apps/faq).</p>
+<p>Initially tried to use the Facebook api to obtain all of my friends and photos. Turns out that you can <a href="https://developers.facebook.com/docs/apps/faq" target="_blank" rel="external">no longer obtain all of a user's friends on facebook</a>.</p>
 <blockquote>
 <p><img src="deprecating-obtaining-friends.png" alt=""></p>
 </blockquote>
 <h3>2) Manually Downloaded the Images</h3>
-<p>I went to <code>https://www.facebook.com/jonleung137/friends</code>, scrolled <em>all</em> the way down, and clicked <code>File &gt; Save</code> which gave me all the images inside a folder.</p>
+<p>I went to <a href="https://www.facebook.com/jonleung137/friends" target="_blank" rel="external"><code>https://www.facebook.com/jonleung137/friends</code></a>, scrolled <em>all</em> the way down, and clicked <code>File &gt; Save</code> which gave me all the images inside a folder.</p>
 <h3>3) Obtaining Photos Sorted by Friend Interaction Frequency</h3>
-<p>Facebook uses some kind of algorithm to determine who you interact with more and who you interact with less. I wanted the photos to be sorted by this super fuzzy system.</p>
+<p>Facebook uses some kind of not very accurate algorithm to determine who you interact with more and who you interact with less. I wanted the photos to be sorted by this super fuzzy system.</p>
 <p>To obtain the images, I did the following:</p>
 <ol>
-<li>Went to https://www.facebook.com/jonleung137/friends</li>
-<li>Scrolled <em>all</em> the way down.</li>
-<li>Opened the Chrome console</li>
-<li>Copied and pasted the entirety of the <a href="https://code.jquery.com/jquery-2.2.4.min.js" target="_blank" rel="external">minified JQuery code</a> into the console</li>
-<li>Ran this code in the console which builds a series of  <code>wget</code> commands that I
-can run in bash and copies the code to my clipboard</li>
-</ol>
-<p><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> data = <span class="string">""</span>;</div><div class="line">$.each($(<span class="string">".uiList._262m._4kg li div a img._s0._rv.img"</span>), <span class="function"><span class="keyword">function</span>(<span class="params">i, img</span>) </span>&#123;</div><div class="line">  data += <span class="string">'wget -O '</span> + i + <span class="string">'.jpg \"'</span> + img.src + <span class="string">'\"'</span> + <span class="string">'\n'</span></div><div class="line">&#125;);</div><div class="line">copy(data);</div></pre></td></tr></table></figure></p>
-<ol start="6">
-<li>Paste the code it gives me back into a <code>.sh</code> that I run
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">wget -O 0.jpg <span class="string">"https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c31.0.100.100/p100x100/12553002_10204845042917344_5549521851422223829_n.jpg?oh=fd45978c63e265135e813a1170d4d0c1&amp;oe=58366F94"</span></div><div class="line">wget -O 1.jpg <span class="string">"https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/r90/c0.50.100.100/p100x100/10245434_10203348801465430_1552392502088381112_n.jpg?oh=ef2c086759f0d191a0dbfb58cfc1510d&amp;oe=58376F81"</span></div><div class="line">wget -O 2.jpg <span class="string">"https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p100x100/5232_10153546669894355_4063517365387124125_n.jpg?oh=e424aa502ef0a87455a37a76199dc429&amp;oe=5830D799"</span></div><div class="line">wget -O 3.jpg <span class="string">"https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p100x100/12804886_10208681677458375_4116887309452467904_n.jpg?oh=51e4c820cfddb5954ecedead8ceb37ca&amp;oe=581E6055"</span></div><div class="line"><span class="comment"># ...</span></div></pre></td></tr></table></figure></li>
+<li>
+<p>Went to <a href="https://www.facebook.com/jonleung137/friends" target="_blank" rel="external">https://www.facebook.com/jonleung137/friends</a></p>
+</li>
+<li>
+<p>Scrolled <em>all</em> the way down.</p>
+</li>
+<li>
+<p>Opened the Chrome console</p>
+</li>
+<li>
+<p>Copied and pasted the entirety of the <a href="https://code.jquery.com/jquery-2.2.4.min.js" target="_blank" rel="external">minified JQuery code</a> into the console</p>
+</li>
+<li>
+<p>Ran this code in the console which builds a series of  <code>wget</code> commands that I
+can run in bash and copies the code to my clipboard
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> data = <span class="string">""</span>;</div><div class="line">$.each($(<span class="string">".uiList._262m._4kg li div a img._s0._rv.img"</span>), <span class="function"><span class="keyword">function</span>(<span class="params">i, img</span>) </span>&#123;</div><div class="line">  data += <span class="string">'wget -O '</span> + i + <span class="string">'.jpg \"'</span> + img.src + <span class="string">'\"'</span> + <span class="string">'\n'</span></div><div class="line">&#125;);</div><div class="line">copy(data);</div></pre></td></tr></table></figure></p>
+</li>
+<li>
+<p>Paste the code it gives me back into a <code>.sh</code> that I run
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">wget -O 0.jpg <span class="string">"https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/c31.0.100.100/p100x100/12553002_10204845042917344_5549521851422223829_n.jpg?oh=fd45978c63e265135e813a1170d4d0c1&amp;oe=58366F94"</span></div><div class="line">wget -O 1.jpg <span class="string">"https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/r90/c0.50.100.100/p100x100/10245434_10203348801465430_1552392502088381112_n.jpg?oh=ef2c086759f0d191a0dbfb58cfc1510d&amp;oe=58376F81"</span></div><div class="line">wget -O 2.jpg <span class="string">"https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p100x100/5232_10153546669894355_4063517365387124125_n.jpg?oh=e424aa502ef0a87455a37a76199dc429&amp;oe=5830D799"</span></div><div class="line">wget -O 3.jpg <span class="string">"https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/p100x100/12804886_10208681677458375_4116887309452467904_n.jpg?oh=51e4c820cfddb5954ecedead8ceb37ca&amp;oe=581E6055"</span></div><div class="line"><span class="comment"># ...</span></div></pre></td></tr></table></figure></p>
+</li>
 </ol>
 <h3>4) Writing the Code</h3>
 <h4>Psuedocode</h4>
-<ul>
-<li>create an array of rgb vectors, one for each pixel of the image
-<ul>
-<li>initialize each of the rgb values initially to 0.</li>
-<li>let's call this array, <code>pixelsTotalArray</code></li>
-</ul>
-</li>
-<li>then for each image
-<ul>
-<li>read the rgb value of each pixel</li>
-<li>and += it to the corresponding array value in <code>pixelsTotalArray</code></li>
-</ul>
-</li>
-<li>then for each value of <code>pixelsTotalArray</code>, divide each rgb value by the number
-of images there are.</li>
-</ul>
+<p><figure class="highlight md"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="bullet">- </span>create an array of rgb vectors, one for each pixel of the image</div><div class="line">  - initialize each of the rgb values initially to 0.</div><div class="line">  - let's call this array, <span class="code">`pixelsTotalArray`</span></div><div class="line"><span class="bullet">- </span>then for each image</div><div class="line">  - read the rgb value of each pixel</div><div class="line">  - and += it to the corresponding array value in <span class="code">`pixelsTotalArray`</span></div><div class="line"><span class="bullet">- </span>then for each value of <span class="code">`pixelsTotalArray`</span>, divide each rgb value by the number</div><div class="line">  of images there are.</div></pre></td></tr></table></figure></p>
 <h4>Commits:</h4>
-<p><em>Note, my commits are currently not the most organized for external consumption
-...</em></p>
 <p>See the commits to my project
 <a href="https://github.com/jonleung/face-mesh/commits/master" target="_blank" rel="external">here</a>:</p>
+<p><em>Note, my commits are currently not the most organized for external consumption
+...</em></p>
 <h2>Future work</h2>
 <h3>Facial Detection</h3>
 <p>Instead of using all images directly as they appear on Facebook (because there
@@ -89,4 +83,7 @@ for what I'm talking about).</li>
 <ul>
 <li>Instead of loading more than 2000 individual images, combining the images together into a sprite sheet with ImageMagick would be ideal.</li>
 </ul>
+<h2>Party</h2>
+<p>Huzzah! I've finished my first piece of documentation! &lt;3
+Peace y'all, I'm getting ramen...</p>
 </div></article><div class="tags"></div><div class="paginator"><a href="/hexo-blog/hello-world/" class="prev"><i class="iconfont icon-left"></i><span> Prev</span></a></div></section><footer><div class="copyright"><p>&copy;2016<span class="heart"><i class="iconfont icon-heart"></i></span><span class="author">Jonathan Leung</span></p></div><label id="back2top"><i class="iconfont icon-up"></i></label></footer></div></body><script src="/js/back2top.js"></script></html>
