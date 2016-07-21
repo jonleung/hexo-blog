@@ -5,7 +5,7 @@ tags:
 
 If you combined photos of all your friends' faces, what would it tell you? That's the question I was curious about.
 
-What could you discern about the race of your friends, how about about gender?
+What could you discern about the commonality of gender of your friends, how about race?
 
 This is what emerged for my friends:
 
@@ -38,6 +38,8 @@ because many photos are not photos of people's faces:
 ![](19.jpg)
 ![](20.jpg)
 ![](28.jpg)
+
+In terms of determining race or gender, the final image is a bit too blurred out to really make any kind of conclusions about race, gender, or anything else from it.
 
 ## Context
 
