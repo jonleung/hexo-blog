@@ -5,7 +5,7 @@
   <link href="/hexo-blog/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-20T23:38:56.000Z</updated>
+  <updated>2016-07-24T02:30:35.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,20 +16,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/hello-world/"/>
-    <id>http://yoursite.com/hello-world/</id>
-    <published>2016-07-21T00:40:22.202Z</published>
-    <updated>2016-07-20T23:38:56.000Z</updated>
+    <title>Workflowy Images</title>
+    <link href="http://yoursite.com/workflowy-images/"/>
+    <id>http://yoursite.com/workflowy-images/</id>
+    <published>2016-07-24T02:31:32.715Z</published>
+    <updated>2016-07-24T02:30:35.000Z</updated>
     
-    <content type="html"><![CDATA[<p>This is going to be the temporary place that I'm going to publish my projects
-make at <a href="http://sfpc.io" target="_blank" rel="external">SFPC</a> until I overhaul this unto my own websites : )</p>
+    <content type="html"><![CDATA[<h1>WorkFlowy Images</h1>
+<p>I made a <a href="https://chrome.google.com/webstore/detail/cnecfoeoohjnimhbcojcdfhhdllgleck" target="_blank" rel="external">Chrome Extension</a> (and <a href="https://github.com/jonleung/workflowy-images#tampermonkey-installation" target="_blank" rel="external">Tampermonkey script</a>) to embed images into your
+<a href="http://workflowy.com" target="_blank" rel="external">WorkFlowy</a>!</p>
+<p><img src="workflow_images_screenshots.gif" alt=""></p>
+<h2>GitHub</h2>
+<p><a href="https://github.com/jonleung/workflowy-images" target="_blank" rel="external">Go Checkout the GitHub repository now →</a>
+or download the <a href="https://chrome.google.com/webstore/detail/cnecfoeoohjnimhbcojcdfhhdllgleck" target="_blank" rel="external">Chrome Extension</a>.</p>
+<h2>Public Service Announcement</h2>
+<p>Two Things</p>
+<h3>1) WORKFLOWY IS AMAZEBALLS!</h3>
+<p>Please use <a href="https://workflowy.com" target="_blank" rel="external">WorkFlowy</a> to be more productive.
+The only reason you shouldn't use WorkFlowy is because you're an OG who uses
+<a href="https://www.google.com/?#q=emacs+org+mode" target="_blank" rel="external">Emacs org mode</a>
+(I tried and failed to pass the emacs barrier... some day...)</p>
+<p>Just to give you a brief taste of how I use it, here is a screenshot of the
+root directory of my WorkFlowy:</p>
+<p><img src="my_workflowy.png" alt="Screenshot of my Workflowy"></p>
+<h3>2) It works AMAZINGLY with the most effective productivity system I've ever found</h3>
+<blockquote>
+<p><em>Note: Those who know me well know the magnitude of what it means for Jonathan
+to say that something is the most effective productivity system)</em></p>
+</blockquote>
+<p>My former colleague, <a href="!zachlatta.com">Zach Latta</a> told me about <a href="https://news.ycombinator.com/item?id=8804080" target="_blank" rel="external">this
+productivity system written about on Hacker
+News</a> he discovered on Hacker
+created by <a href="https://news.ycombinator.com/user?id=drewcrawford" target="_blank" rel="external">Drew Crawford</a>.</p>
+<p>This is the number 1 most useful productivity tip I've ever found and I've been
+developing my own version of it ever since. I'll write a blogpost about how I do
+this eventually...</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;This is going to be the temporary place that I&#39;m going to publish my projects
-make at &lt;a href=&quot;http://sfpc.io&quot; target=&quot;_blank&quot; rel=&quot;exter
+      &lt;h1&gt;WorkFlowy Images&lt;/h1&gt;
+&lt;p&gt;I made a &lt;a href=&quot;https://chrome.google.com/webstore/detail/cnecfoeoohjnimhbcojcdfhhdllgleck&quot; target=&quot;_blank&quot; r
     
     </summary>
     
@@ -40,7 +67,7 @@ make at &lt;a href=&quot;http://sfpc.io&quot; target=&quot;_blank&quot; rel=&quo
     <title>Face Mash</title>
     <link href="http://yoursite.com/Face-Mash/"/>
     <id>http://yoursite.com/Face-Mash/</id>
-    <published>2016-07-21T00:40:22.190Z</published>
+    <published>2016-07-24T01:48:53.031Z</published>
     <updated>2016-07-21T00:39:30.000Z</updated>
     
     <content type="html"><![CDATA[<p>If you combined photos of all your friends' faces, what would it tell you? That's the question I was curious about.</p>
@@ -138,6 +165,27 @@ Peace y'all, I'm getting ramen...</p>
     
       &lt;p&gt;If you combined photos of all your friends&#39; faces, what would it tell you? That&#39;s the question I was curious about.&lt;/p&gt;
 &lt;p&gt;What could you
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/hello-world/"/>
+    <id>http://yoursite.com/hello-world/</id>
+    <published>2016-07-24T01:48:53.023Z</published>
+    <updated>2016-07-20T23:38:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is going to be the temporary place that I'm going to publish my projects
+make at <a href="http://sfpc.io" target="_blank" rel="external">SFPC</a> until I overhaul this unto my own websites : )</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is going to be the temporary place that I&#39;m going to publish my projects
+make at &lt;a href=&quot;http://sfpc.io&quot; target=&quot;_blank&quot; rel=&quot;exter
     
     </summary>
     

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/hexo-blog/workflowy-images/</loc>
+    
+    <lastmod>2016-07-24T02:30:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/hexo-blog/Face-Mash/</loc>
     
     <lastmod>2016-07-21T00:39:30.000Z</lastmod>
